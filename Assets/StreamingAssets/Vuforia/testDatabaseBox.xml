@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="GreenCube.Right" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Bottom" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Left" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Front" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Top" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Back" size="3.500000 3.500000"/>
+        <MultiTarget name="GreenCube">
+            <Part name="GreenCube.Left" translation="-1.75 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="GreenCube.Right" translation="1.75 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="GreenCube.Front" translation="0 0 1.75" rotation="AD: 1 0 0 0"/>
+            <Part name="GreenCube.Back" translation="0 0 -1.75" rotation="AD: 0 1 0 180"/>
+            <Part name="GreenCube.Top" translation="0 1.75 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="GreenCube.Bottom" translation="0 -1.75 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
