@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
     <Tracking>
+        <CylinderTarget name="salt_2" sideLength="9.000000"/>
+        <CylinderTarget name="salt" sideLength="1.120000"/>
+        <ImageTarget name="orangeCover.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Back" size="1.000000 1.000000"/>
         <ImageTarget name="GreenCube.Right" size="3.500000 3.500000"/>
         <ImageTarget name="GreenCube.Bottom" size="3.500000 3.500000"/>
         <ImageTarget name="GreenCube.Left" size="3.500000 3.500000"/>
         <ImageTarget name="GreenCube.Front" size="3.500000 3.500000"/>
         <ImageTarget name="GreenCube.Top" size="3.500000 3.500000"/>
         <ImageTarget name="GreenCube.Back" size="3.500000 3.500000"/>
+        <ImageTarget name="YellowLongBox.Right" size="10.500000 3.500000"/>
+        <ImageTarget name="YellowLongBox.Left" size="10.500000 3.500000"/>
+        <ImageTarget name="YellowLongBox.Front" size="3.500000 3.500000"/>
+        <ImageTarget name="YellowLongBox.Back" size="3.500000 3.500000"/>
+        <MultiTarget name="orangeCover">
+            <Part name="orangeCover.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="orangeCover.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="orangeCover.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="orangeCover.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="orangeCover.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="orangeCover.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
         <MultiTarget name="GreenCube">
             <Part name="GreenCube.Left" translation="-1.75 0 0" rotation="AD: 0 1 0 -90"/>
             <Part name="GreenCube.Right" translation="1.75 0 0" rotation="AD: 0 1 0 90"/>
@@ -14,6 +34,12 @@
             <Part name="GreenCube.Back" translation="0 0 -1.75" rotation="AD: 0 1 0 180"/>
             <Part name="GreenCube.Top" translation="0 1.75 0" rotation="AD: 1 0 0 -90"/>
             <Part name="GreenCube.Bottom" translation="0 -1.75 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="YellowLongBox">
+            <Part name="YellowLongBox.Left" translation="-1.75 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="YellowLongBox.Right" translation="1.75 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="YellowLongBox.Front" translation="0 0 5.25" rotation="AD: 1 0 0 0"/>
+            <Part name="YellowLongBox.Back" translation="0 0 -5.25" rotation="AD: 0 1 0 180"/>
         </MultiTarget>
     </Tracking>
 </QCARConfig>

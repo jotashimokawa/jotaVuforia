@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.0">
+        <CylinderTarget name="salt_2" version="3.0" targetId="16bfffef75c14baab4668a27086b69a0" sideLength="9.000000" topDiameter="10.240000" bottomDiameter="10.240000" sideImage="salt_2.Body_scaled.jpg" topImage="salt_2.Top_scaled.jpg"/>
+        <CylinderTarget name="salt" version="3.0" targetId="f0737fb7dd074167b408198702cc551e" sideLength="1.120000" topDiameter="1.000000" bottomDiameter="1.000000" sideImage="salt.Body_scaled.jpg" topImage="salt.Top_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
