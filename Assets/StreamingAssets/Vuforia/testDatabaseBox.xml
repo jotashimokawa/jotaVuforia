@@ -3,21 +3,21 @@
     <Tracking>
         <CylinderTarget name="salt_2" sideLength="9.000000"/>
         <CylinderTarget name="salt" sideLength="1.120000"/>
-        <ImageTarget name="orangeCover.Right" size="1.000000 1.000000"/>
-        <ImageTarget name="orangeCover.Bottom" size="1.000000 1.000000"/>
-        <ImageTarget name="orangeCover.Left" size="1.000000 1.000000"/>
         <ImageTarget name="orangeCover.Front" size="1.000000 1.000000"/>
-        <ImageTarget name="orangeCover.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Left" size="1.000000 1.000000"/>
         <ImageTarget name="orangeCover.Back" size="1.000000 1.000000"/>
-        <ImageTarget name="GreenCube.Right" size="3.500000 3.500000"/>
-        <ImageTarget name="GreenCube.Bottom" size="3.500000 3.500000"/>
-        <ImageTarget name="GreenCube.Left" size="3.500000 3.500000"/>
+        <ImageTarget name="orangeCover.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="orangeCover.Bottom" size="1.000000 1.000000"/>
         <ImageTarget name="GreenCube.Front" size="3.500000 3.500000"/>
-        <ImageTarget name="GreenCube.Top" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Right" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Left" size="3.500000 3.500000"/>
         <ImageTarget name="GreenCube.Back" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Top" size="3.500000 3.500000"/>
+        <ImageTarget name="GreenCube.Bottom" size="3.500000 3.500000"/>
+        <ImageTarget name="YellowLongBox.Front" size="3.500000 3.500000"/>
         <ImageTarget name="YellowLongBox.Right" size="10.500000 3.500000"/>
         <ImageTarget name="YellowLongBox.Left" size="10.500000 3.500000"/>
-        <ImageTarget name="YellowLongBox.Front" size="3.500000 3.500000"/>
         <ImageTarget name="YellowLongBox.Back" size="3.500000 3.500000"/>
         <MultiTarget name="orangeCover">
             <Part name="orangeCover.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
