@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="StageMarker" size="200.000000 200.000000"/>
+        <ImageTarget name="QRrectangles.Front" size="70.000000 35.000000"/>
+        <ImageTarget name="QRrectangles.Right" size="35.000000 35.000000"/>
+        <ImageTarget name="QRrectangles.Left" size="35.000000 35.000000"/>
+        <ImageTarget name="QRrectangles.Back" size="70.000000 35.000000"/>
+        <ImageTarget name="QRrectangles.Top" size="70.000000 35.000000"/>
+        <ImageTarget name="QRrectangles.Bottom" size="70.000000 35.000000"/>
+        <ImageTarget name="QRBox.Front" size="35.000000 35.000000"/>
+        <ImageTarget name="QRBox.Right" size="35.000000 35.000000"/>
+        <ImageTarget name="QRBox.Left" size="35.000000 35.000000"/>
+        <ImageTarget name="QRBox.Back" size="35.000000 35.000000"/>
+        <ImageTarget name="QRBox.Top" size="35.000000 35.000000"/>
+        <ImageTarget name="QRBox.Bottom" size="35.000000 35.000000"/>
+        <MultiTarget name="QRrectangles">
+            <Part name="QRrectangles.Left" translation="-35.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="QRrectangles.Right" translation="35.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="QRrectangles.Front" translation="0 0 17.5" rotation="AD: 1 0 0 0"/>
+            <Part name="QRrectangles.Back" translation="0 0 -17.5" rotation="AD: 0 1 0 180"/>
+            <Part name="QRrectangles.Top" translation="0 17.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="QRrectangles.Bottom" translation="0 -17.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="QRBox">
+            <Part name="QRBox.Left" translation="-17.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="QRBox.Right" translation="17.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="QRBox.Front" translation="0 0 17.5" rotation="AD: 1 0 0 0"/>
+            <Part name="QRBox.Back" translation="0 0 -17.5" rotation="AD: 0 1 0 180"/>
+            <Part name="QRBox.Top" translation="0 17.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="QRBox.Bottom" translation="0 -17.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

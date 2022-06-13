@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ChangeGravity.cs" />
     <Compile Include="Assets\getPositionTest.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\testDatabaseBox.xml" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
@@ -79,6 +80,7 @@
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\QRDatabase.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
