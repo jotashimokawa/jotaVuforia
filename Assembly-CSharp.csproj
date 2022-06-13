@@ -64,8 +64,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangeGravity.cs" />
-    <Compile Include="Assets\getPositionTest.cs" />
+    <Compile Include="Assets\Scripts\ChangeGravity.cs" />
+    <Compile Include="Assets\Scripts\getPositionTest.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\testPlayer.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\testDatabaseBox.xml" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
@@ -89,6 +91,9 @@
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/imura-lab/Vuforia2019test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>C:/Users/imura-lab/Vuforia2019test/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/imura-lab/Vuforia2019test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
